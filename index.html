@@ -1,0 +1,130 @@
+<html lang="ja">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Cafe Polaris 公式ページ" />
+    <meta name="author" content="Nittaku-WP" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Cafe Polaris</title>
+</head>
+<body>
+    <header>
+        <h1>Cafe Polaris 公式ページ</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">ホーム</a></li>
+                <li><a href="#hero">トップ</a></li>
+                <li><a href="#menu">メニュー</a></li>
+                <li><a href="#access">店舗情報</a></li>
+                <li><a href="#contact">お問い合わせ</a></li>
+            </ul>
+        </nav>
+    </header>
+    <aside>
+                <img src="4wd.jpeg" alt="店長の顔写真" />
+                <p>店長：Nittaku-WP</p>
+                <p>ぜひお越しください！</p>
+                <ul>
+                    <li><a href="○○○○.instagram.com">公式インスタアカウント</a></li>
+                    <li><a href="○○○○.x.com">公式Xアカウント</a></li>
+                </ul>
+        </aside>
+    <main>
+        
+        <section id="hero">
+            <h2>トップ</h2>
+            <p>当店は、静かな空間でコーヒーと紅茶を提供いたします。</p>
+                <img src="cafe.jpg" alt="Cafe Polarisの内観" loading="lazy" />
+        </section>
+        <section id="menu">
+            <h2>メニュー</h2>
+            <ul>
+                <li>コーヒー - ¥400</li>
+                <li>紅茶 - ¥350</li>
+                <li>ケーキ - ¥500</li>
+            </ul>
+            <article>
+                <h3>コーヒー</h3>
+                <p>当店のコーヒーは、特製ブレンドで、香り豊かで味わい深いです。</p>
+                <p>¥400</p>
+            </article>
+            <article>
+                <h3>紅茶</h3>
+                <p>厳選された茶葉を使用し、リラックスできる味わいを提供します。</p>
+                <p>¥350</p>
+            </article>
+            <article>
+                <h3>ケーキ</h3>
+                <p>手作りのケーキは、季節のフルーツを使用し、甘さ控えめで人気です。</p> 
+                <p>¥500</p>
+            </article>
+            
+        </section>
+        <section id="access">
+            <h2>店舗情報</h2>
+                <table>
+                    <tr>
+                        <th>店舗名</th>
+                        <td>Cafe Polaris</td>
+                    </tr>
+                    <tr>
+                        <th>説明</th>
+                        <td>このカフェは、静かな空間でコーヒーと紅茶を楽しむことができます。</td>
+                    </tr>
+                
+                    <tr>
+                        <th>電話番号</th>
+                        <td>012-345-6789</td>
+                    </tr>
+                    <tr>
+                        <th>営業時間</th>
+                        <td>10:00 AM - 8:00 PM</td>
+                    </tr>
+                    <tr>
+                        <th>定休日</th>
+                        <td>毎週水曜日</td>
+                    </tr>
+                    <tr>
+                        <th>店舗所在地</th>
+                        <td>北海道○○市△△町□-□</td>
+                     </tr>
+                    <tr>
+                        <th>店舗責任者</th>
+                        <td>Nittaku-WP</td>
+                    </tr>
+                </table> 
+        </section>
+        <section id="contact">
+            <h2>お問い合わせ</h2>
+            <form method="post">
+                <label for="name">お名前:</label>
+                <input type="text" minlength="2" maxlength="20" id="name" name="name" required />
+
+                <label for="email">メールアドレス:</label>
+                <input type="email" id="email" name="email" required />
+
+                <select id="category" name="category">
+                    <option value="" disabled selected>--お問い合わせの種類を選択してください--</option>
+                    <option value="menu">メニューについて</option>
+                    <option value="store">店舗について</option>
+                    <option value="other">その他</option>
+                </select>
+
+                <label for="message">メッセージ:</label>
+                <textarea id="message" name="message" rows="4" cols="50" required></textarea><br />
+
+                
+                <div class="agree"> 
+                <input type="checkbox" id="agree" name="agree" required />
+                <label for="agree">利用規約に同意します</label>
+                </div>
+                <button type="submit" value="送信">送信</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2026 Cafe Polaris</p>
+        <p><a href="privacy.html">プライバシーポリシー</a></p>
+    </footer>
+</body>
+</html>
